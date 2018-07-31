@@ -1,3 +1,142 @@
 & {
-  
+  header,
+  main {
+    overflow: hidden;
+  }
+  nav {
+    padding: 12px 0;
+    .contacts {
+      display: none;
+    }
+  }
+  .head-item h1,
+  .head-item h2 {
+    font-size: 28px;
+    span {
+      font-size: 100px;
+    }
+  }
+  .head {
+    padding-top: 80px;
+    .form {
+      margin-top: 20px;
+    }
+  }
+  .logo {
+    img {
+      max-width: 90px;
+    }
+  }
+  .order-btn {
+    font-size: 12px;
+    padding: 16px 38px;
+  }
+  .order-btn.top {
+    font-size: 12px;
+    padding: 7px 9px;
+  }
+  .head-item p {
+    font-size: 12px;
+  }
+  .head-item .date {
+    font-size: 16px;
+  }
+  .form {
+    padding-left: 15px;
+    padding-right: 15px;
+    input {
+      font-size: 14px;
+    }
+  }
+  .logo-list {
+    text-align: center;
+    li {
+      margin: 10px;
+    }
+  }
+  .video-item {
+    padding-bottom: 30px;
+    min-height: inherit;
+  }
+  .video, .whom, .questions {
+    padding: 50px 0;
+  }
+  .title {
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  .whom-item {
+    margin-top: 20px;
+    .img {
+      min-height: inherit;
+      margin-bottom: 10px;
+    }
+  }
+  .questions-item .col-xl-8, .questions-item:nth-child(odd) .col-xl-8 {
+    padding: 0 15px;
+  }
+  .questions-item .col-xl-4, .questions-item:nth-child(odd) .col-xl-4 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .questions-item {
+    img {
+      max-width: 100%;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+}
+  .questions-item h4 {
+    font-size: 20px;
+  }
+  .questions-item .content h5 {
+    font-size: 18px;
+  }
+  .questions-item .content p {
+    font-size: 16px;
+    br {
+      display: none;
+      
+    }
+  }
+  .exhortation {
+    background: #e9e9e9;
+    padding: 50px 0;
+    .text-right {
+      text-align: center;
+    }
+}
+  .exhortation-item {
+    font-size: 15px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .speacker-bg {
+    padding: 50px 0;
+    br {
+      display: none;
+    }
+  }
+  .speacker-logo li {
+    margin: 10px;
+  }
+  .f_bottom {
+    text-align: center;
+    .contacts {
+      text-align: center;
+      a {
+        margin: 10px;
+        line-height: 1;
+      }
+    }
+  }
+  .head .container {
+    max-width: 570px;
+} 
 }
